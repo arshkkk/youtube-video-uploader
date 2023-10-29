@@ -21,6 +21,7 @@ module.exports = {
     "eslint-config-turbo",
   ].map(require.resolve),
   parserOptions: {
+    sourceType: "module",
     project,
   },
   globals: {
@@ -38,5 +39,7 @@ module.exports = {
   // add rules configurations here
   rules: {
     "import/no-default-export": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
   },
 };
