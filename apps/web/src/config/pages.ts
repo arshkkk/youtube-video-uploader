@@ -19,7 +19,7 @@ export const pagesConfig: Page[] = [
   {
     title: "Videos",
     description: "Check all the responses in one place.",
-    href: "/monitors",
+    href: "/videos",
     icon: "videos",
   },
   {

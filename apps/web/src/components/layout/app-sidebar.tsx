@@ -14,7 +14,7 @@ export function AppSidebar() {
         {pagesConfig.map(({ title, href, icon, disabled }) => {
           const Icon = Icons[icon];
 
-          const link = `/app/${href}`;
+          const link = `/app${href}`;
           const isActive = pathname.startsWith(link);
           return (
             <li className="w-full" key={title}>

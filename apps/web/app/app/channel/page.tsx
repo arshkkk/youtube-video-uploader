@@ -16,15 +16,15 @@ export default async function Channel() {
 
   return (
     <div className="grid min-h-full grid-cols-1 grid-rows-[auto,1fr,auto] gap-6 md:grid-cols-2 md:gap-8">
-      <pre>{JSON.stringify(channel, null, 2)}</pre>
+      {/*<pre>{JSON.stringify(channel, null, 2)}</pre>*/}
       <Header
         description="Here you can see your Channel details"
         title="Channel Details"
       />
-      <div className="border-border bg-background col-span-full w-full rounded-lg border border-dashed p-8">
+      <div className="border-border bg-background col-span-full w-full rounded-lg border border-dashed p-8 h-fit">
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex flex-col items-center justify-center gap-1">
-            <Icons.videos className="h-6 w-6" />
+            <Icons.videos className="h-12 w-12" />
             <p className="text-foreground text-base">Add your Channel</p>
             <p className="text-muted-foreground text-center">
               You can see your Channel Details here

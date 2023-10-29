@@ -4,5 +4,6 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "jsx-a11y/heading-has-content": "off",
+    "import/no-extraneous-dependencies": "off",
   },
 };

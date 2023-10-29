@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button, Icons } from "ui";
 import { socialsConfig } from "@/config/social";
 import { UserNav } from "@/components/navbar/user-nav";
+import ChannelSwitcher from "@/components/dashboard/channel-switcher";
 import { Shell } from "../shell";
 
 /**
@@ -24,7 +25,9 @@ export function AppHeader() {
         >
           OpenStatus
         </Link>
+
         <div className="flex items-center gap-4">
+          <ChannelSwitcher />
           <ul className="flex gap-2">
             {/*<li className="w-full">*/}
             {/*  <Button variant="link">*/}
